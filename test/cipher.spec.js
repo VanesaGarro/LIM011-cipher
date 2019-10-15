@@ -13,6 +13,7 @@ describe('cipher', () => {
             expect(typeof cipher.encode).toBe('function');
         });
         it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33', () => {
+        expect(cipher.encode(33, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')).toBe('HIJKLMNOPQRSTUVWXYZABCDEFG');
         });
         // Hacker edition
         //
