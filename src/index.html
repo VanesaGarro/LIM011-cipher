@@ -1,15 +1,91 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Capriola&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+
+</head>
+
+<body>
+    <div id="contenedor">
+
+        <div id="MenuBienvenida" class="ocultarp">
+            <section class="bg-dark btn-container">
+
+                <div class="btn-item">
+                    <button id="iniciar" class="btn-ghost round ">¡Obtenlo Ahora! </button>
+
+                </div>
+            </section>
+        </div>
+
+
+        <div class="ocultarp" id="SolicitarPrestamo">
+            <h1>Solicitud de Préstamo</h1>
+            <img src="../imagenes/i.gif">
+            <div class="AlinearSP">
+            <p>Elige Número de desplazamiento:</p>
+            <input type="number" class="campo" id="num">
+            <p>Nombres:</p>
+            <input type="text" class="campo" id="nombre">
+            <p>Apellidos:</p>
+            <input type="text" class="campo" id="apellido">
+            <p>Edad:</p>
+            <input type="text" class="campo" id="edad">
+            <p>Dni:</p>
+            <input type="text" class="campo" id="dni">
+            <p>Provincia:</p>
+            <input type="text" class="campo" id="provincia">
+            <p>Direccion:</p>
+            <input type="text" class="campo" id="direccion">
+            <p>Celular:</p>
+            <input type="text" class="campo" id="celular">
+            <p>Monto:</p>
+            <input type="text" class="campo" id="monto">
+
+            <p><u>Datos cifrados: </u></p>
+            <textarea id="datoscifrados">
+           </textarea>
+         </div>
+            <p> <button id="cifrado" class="button blue medium radius">Cifrar</button>
+                <button id="enviar" class="button blue medium radius">Enviar</button>
+                <button id="limpiar" class="button blue medium radius">Refresh</button> </p>
+
+
+        </div>
+
+        <div class="ocultarp" id="VerSolicitud">
+            <div class="AlinearVP">
+                <h1>Información de la Solicitud </h1>
+                <img src="../imagenes/money.png " id="correo">
+                <p>Datos Cifrados:
+                    <br>
+                    <textarea id="datoscifrados2">
+  </textarea>
+                </p>
+                <p>
+                    Datos decifrados:
+                    <br>
+                    <textarea id="datosdecifrados">
+   </textarea>
+                </p>
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+                <p> <button id="decifrado" class="button blue medium radius">Decifrar</button>
+                    <button id="guardar" class="button blue medium radius">Guardar</button>
+                    <button id="limpiard" class="button blue medium radius">Limpiar</button> </p>
+
+
+
+        </div>
+
+
+        <script src="cipher.js"></script>
+        <script src="index.js"></script>
+    </div>
+</body>
+
 </html>

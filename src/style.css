@@ -1,0 +1,183 @@
+#MenuBienvenida {
+    background-image: url(../imagenes/fondito.png);
+    border: 18px solid black;
+}
+
+
+#contenedor {
+    background-image: url(../imagenes/azul.jpg);
+}
+
+* {
+    font-family: 'Capriola', sans-serif;
+}
+
+.btn-container {
+    padding-top: 510px;
+    padding-right: 500px;
+    padding-left: 200px;
+    padding-bottom: 169px;
+}
+
+.btn-ghost {
+    position: relativate;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 20px 80px;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: white;
+    transition: color 0.5s, background 0.5s;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    min-width: 140px;
+    text-align: center;
+}
+
+.btn-ghost.round {
+    border-radius: 30px;
+}
+
+.btn-ghost.secundary {
+    background-color: transparent;
+    color: white;
+}
+
+.btn-ghost:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.btn-ghost.secundary:hover {
+    color: black;
+    background-color: white;
+}
+
+.btn-ghost:active {
+    box-shadow: inset 0 0 20px white;
+}
+
+.btn-ghost.secundary:active {
+    box-shadow: inset 0 0 20px var black;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+    margin: 9px 200px;
+}
+
+#correo {
+    width: 400px;
+    height: 400px;
+    margin: 9px 125px;
+}
+
+#SolicitarPrestamo,
+#VerSolicitud {
+    max-width: 960px;
+    background: #eafff9;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: hidden;
+    color: #0083ff;
+    margin: 0px 270px;
+    border: 15px solid #63dbf7;
+    font-size: 20px;
+}
+/* para centrar los inputs del formulario */
+.AlinearVP{
+  margin: 7px 145px;
+}
+.AlinearSP{
+  margin: 10px 145px;
+}
+
+.campo {
+    border-radius: 5px;
+    border: 3px solid #84EAFF;
+    width: 600px;
+    height: 25px;
+    line-height: 25px;
+    font-family: 'Noticia Text', serif;
+    padding-left: 5px;
+    outline-color: #0083ff;
+}
+
+textarea {
+    border-radius: 5px;
+    border: 4px solid #84EAFF;
+    line-height: 25px;
+    font-family: 'Noticia Text', serif;
+    padding-left: 5px;
+    outline-color: #0083ff;
+    width: 550px;
+    height: 180px
+}
+
+p {
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courgette', cursive
+}
+
+.ocultarp {
+    display: none;
+}
+
+.mostrarp {
+    display: block;
+}
+/*Estilos Generales*/
+
+.button {
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 20px;
+    padding: 10px 0;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px #373c3c;
+}
+
+/* Botones del formulario */
+/*Colores*/
+
+.button.blue {
+    background: #04caf8f7;
+    box-shadow: 0px 3px 0px #dfe4ea;
+    text-align: center;
+}
+
+
+/*Tamaños*/
+
+.button.medium {
+    width: 250px;
+}
+
+.button.large {
+    width: 450px;
+}
+
+.button.radius {
+    border-radius: 50px;
+}
+
+
+/*Efectos, Hover*/
+
+.button:hover {
+    box-shadow: 0px 0px 0px;
+    padding-top: 7px;
+}
