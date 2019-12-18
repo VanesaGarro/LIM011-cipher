@@ -1,4 +1,7 @@
-#MenuBienvenida {
+
+* {
+    font-family: 'Capriola', sans-serif;
+}
     background-image: url(../imagenes/fondito.png);
     border: 18px solid black;
 }
@@ -6,10 +9,6 @@
 
 #contenedor {
     background-image: url(../imagenes/azul.jpg);
-}
-
-* {
-    font-family: 'Capriola', sans-serif;
 }
 
 .btn-container {
